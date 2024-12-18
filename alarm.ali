@@ -1,0 +1,36 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U alarm%b		alarm.adb		5a4323d6 NE OO PK IL
+
+U alarm%s		alarm.ads		a0745510 EB NE OO PK
+
+D alarm.ads		20221023005114 a0745510 alarm%s
+D alarm.adb		20221023005532 fa3776c6 alarm%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [enabled alarm 27 13 none]
+G c Z s b [enable alarm 33 14 none]
+G c Z s b [disable alarm 40 14 none]
+G c Z s b [reset_cnt alarm 45 14 none]
+G c Z s b [read_cnt alarm 50 13 none]
+X 1 alarm.ads
+18K9*Alarm 52l5 52e10 2|2b14 36r10 43l5 43t10
+23b4*State{boolean} 29r26 30r38 35r26 36r16 36r25 37r31 42r27 43r20 43r29
+. 2|8m4 14m4 25r7
+24i4*Cnt{integer} 35r33 37r16 37r26 47r28 48r18 2|20m4
+27V13*Enabled{boolean} 30r20 2|23b10 31l5 31t12 36s16
+33U14*Enable 2|5b11 9l5 9t11
+40U14*Disable 2|11b11 15l5 15t12
+45U14*Reset_Cnt 2|17b11 21l5 21t14
+50V13*Read_Cnt{integer} 2|33b10 42l5 42t13
+X 2 alarm.adb
+34i1 cnt{integer} 37m10 37r17 41r11
+

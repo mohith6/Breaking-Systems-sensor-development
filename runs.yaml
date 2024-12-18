@@ -1,0 +1,492 @@
+'2022-10-24T00:05:37.246000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    test_bscu.adb:28:11: error: "Controller" not declared in "bscu"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:05:37.246000'
+'2022-10-24T00:06:19.911000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    reset.adb:9:08: error: misspelling of "enble"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:06:19.911000'
+'2022-10-24T00:07:05.090000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    brakes.ads:34:27: warning: unused initial value of "State"[#3]
+
+    brakes.ads:35:06: medium: missing dependency "null => State"[#5]
+
+    brakes.ads:35:27: medium: incorrect dependency "State => State"[#4]
+
+    brakes.ads:40:27: warning: unused initial value of "State"[#0]
+
+    brakes.ads:41:06: medium: missing dependency "null => State"[#2]
+
+    brakes.ads:41:27: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:07:05.090000'
+'2022-10-24T00:09:25.513000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    brakes.ads:35:06: error: global "State" is missing from output dependence list
+
+    brakes.ads:41:06: error: global "State" is missing from output dependence list
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:09:25.513000'
+'2022-10-24T00:10:55.377000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    brakes.ads:35:24: error: malformed dependency clause
+
+    brakes.ads:41:24: error: malformed dependency clause
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:10:55.377000'
+'2022-10-24T00:11:19.971000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:11:19.971000'
+'2022-10-24T00:17:24.724000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:17:24.724000'
+'2022-10-24T00:38:29.754000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:38:29.754000'
+'2022-10-24T00:51:07.739000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T00:51:07.739000'
+'2022-10-24T01:06:18.267000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T01:06:18.267000'
+'2022-10-24T01:11:21.446000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:16:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T01:11:21.446000'
+'2022-10-24T01:30:22.481000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:28:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T01:30:22.481000'
+'2022-10-24T03:11:43.332000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:28:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T03:11:43.332000'
+'2022-10-24T12:32:40.405000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    bscu.adb:28:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T12:32:40.405000'
+'2022-10-24T13:41:44.156000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    bscu.adb:28:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T13:41:44.156000'
+'2022-10-24T13:42:44.328000':
+  category: GNATprove
+  files:
+  - C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    bscu.adb:28:15: high: "Cnt" must be listed in the Global aspect of "Control_Unit"
+    (SPARK RM 6.1.4(14))[#0]
+
+    alarm.ads:35:26: warning: unused initial value of "State"[#5]
+
+    alarm.ads:35:33: warning: "Cnt" is not modified, could be INPUT[#3]
+
+    alarm.ads:35:33: low: unused global "Cnt"[#4]
+
+    alarm.ads:36:04: medium: missing dependency "null => State"[#8]
+
+    alarm.ads:36:25: medium: incorrect dependency "State => State"[#6]
+
+    alarm.ads:37:31: medium: incorrect dependency "Cnt => State"[#7]
+
+    alarm.ads:42:27: warning: unused initial value of "State"[#0]
+
+    alarm.ads:43:08: medium: missing dependency "null => State"[#2]
+
+    alarm.ads:43:29: medium: incorrect dependency "State => State"[#1]
+
+    Summary logged in C:\Users\alexa\Desktop\ill_go_rythmn\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-10-24T13:42:44.328000'

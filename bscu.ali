@@ -1,0 +1,82 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U bscu%b		bscu.adb		d4ed0f07 NE OO PK IL
+W alarm%s		alarm.adb		alarm.ali
+W brakes%s		brakes.adb		brakes.ali
+W reset%s		reset.adb		reset.ali
+W sensors%s		sensors.adb		sensors.ali
+W speedo%s		speedo.adb		speedo.ali
+
+U bscu%s		bscu.ads		4d14e996 EE NE OO PK IL
+W alarm%s		alarm.adb		alarm.ali
+W brakes%s		brakes.adb		brakes.ali
+W reset%s		reset.adb		reset.ali
+W sensors%s		sensors.adb		sensors.ali
+W speedo%s		speedo.adb		speedo.ali
+
+D alarm.ads		20221023005114 a0745510 alarm%s
+D brakes.ads		20221023221118 674a43fd brakes%s
+D bscu.ads		20221023214546 9bea0df9 bscu%s
+D bscu.adb		20221024103018 99f9e691 bscu%b
+D reset.ads		20220912093224 762a66e1 reset%s
+D sensors.ads		20220912093224 3f8c5bfd sensors%s
+D speedo.ads		20220912093224 5866cf9e speedo%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [control_unit bscu 8 14 none]
+G r c none [control_unit bscu 8 14 none] [read_sensor_majority sensors 42 13 none]
+G r c none [control_unit bscu 8 14 none] [enable brakes 32 14 none]
+G r c none [control_unit bscu 8 14 none] [enabled brakes 26 13 none]
+G r c none [control_unit bscu 8 14 none] [read_speed speedo 31 13 none]
+G r c none [control_unit bscu 8 14 none] [enable alarm 33 14 none]
+G r c none [control_unit bscu 8 14 none] [disable alarm 40 14 none]
+G r c none [control_unit bscu 8 14 none] [disable brakes 38 14 none]
+G r c none [control_unit bscu 8 14 none] [enabled alarm 27 13 none]
+G r c none [control_unit bscu 8 14 none] [enabled reset 37 13 none]
+G r c none [control_unit bscu 8 14 none] [reset_cnt alarm 45 14 none]
+X 1 alarm.ads
+18K9*Alarm 52e10 3|2w15 11r44 12r66 13r20 4|2w6 13r13 19r10 28r10 32r10 37r10
+23b4*State{boolean} 3|11r50 12r72 13r26
+27V13*Enabled{boolean} 4|32s16
+33U14*Enable 4|13s19 28s16
+40U14*Disable 4|19s16
+45U14*Reset_Cnt 4|37s16
+X 2 brakes.ads
+18K9*Brakes 43e11 3|2w29 11r30 12r20 12r52 4|2w30 10r10 12r15 20r13 29r10
+. 33r10
+23b4*State{boolean} 3|11r37 12r27 12r59
+26V13*Enabled{boolean} 4|12s22
+32U14*Enable 4|10s17 29s17 33s17
+38U14*Disable 4|20s20
+X 3 bscu.ads
+3K9*bscu 15l5 15e9 4|3b14 40l5 40t9
+5i4*minimum_speed{integer}
+6i4*maximum_speed{integer} 4|27r10
+8U14*Control_Unit 4|5b14 39l8 39t20
+X 5 reset.ads
+18K9*Reset 3|2w22 10r59 12r93 13r36 4|2w38 36r10 5|42e11
+22b4*State{boolean} 3|10r65 12r99 13r42
+37V13*Enabled{boolean} 4|36s16
+X 6 sensors.ads
+19K9*Sensors 3|2w6 10r30 12r37 4|2w21 7r16 9r10 9r39 18r12 18r43 6|47e12
+23E9*Sensor_Type 4|7r24 6|23e46
+23n25*Enable{23E9} 4|9r47
+23n33*Nosig{23E9} 4|18r51
+25A9*Sensors_Type(23E9)<integer>
+27a4*State{25A9} 3|10r38 12r45
+42V13*Read_Sensor_Majority{23E9} 4|9s18 18s20
+X 7 speedo.ads
+16K9*Speedo 3|2w37 10r45 12r79 13r49 4|2w13 12r34 12r54 27r26 7|36e11
+21I12*Speed_Type{integer}
+22i4*State{21I12} 3|10r52 12r86 13r56 4|12r61 27r33
+31V13*Read_Speed{21I12} 4|12s41
+

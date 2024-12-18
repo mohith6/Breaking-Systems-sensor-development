@@ -1,0 +1,28 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U reset%b		reset.adb		93b069af NE OO PK IL
+
+U reset%s		reset.ads		762a66e1 EE NE OO PK
+
+D reset.ads		20220912093224 762a66e1 reset%s
+D reset.adb		20221023220700 e59a0f4e reset%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [enable reset 25 14 none]
+G c Z s b [disable reset 31 14 none]
+G c Z s b [enabled reset 37 13 none]
+X 1 reset.ads
+18K9*Reset 42l6 42e11 2|2b14 24l5 24t10
+22b4*State{boolean} 27r27 28r18 33r27 34r18 39r26 40r36 2|8m7 13m7 18r10
+25U14*Enable 2|6b14 9l8 9t14
+31U14*Disable 2|11b14 14l8 14t15
+37V13*Enabled{boolean} 40r18 2|16b13 23l8 23t15
+

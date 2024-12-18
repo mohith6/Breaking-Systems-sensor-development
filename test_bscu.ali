@@ -1,0 +1,67 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U test_bscu%b		test_bscu.adb		a5542b5d NE OO SU
+W brakes%s		brakes.adb		brakes.ali
+W bscu%s		bscu.adb		bscu.ali
+W env%s			env.adb			env.ali
+W log%s			log.adb			log.ali
+W sensors%s		sensors.adb		sensors.ali
+
+D alarm.ads		20221023005114 a0745510 alarm%s
+D brakes.ads		20221023221118 674a43fd brakes%s
+D bscu.ads		20221023214546 9bea0df9 bscu%s
+D env.ads		20220912093224 49709549 env%s
+D log.ads		20220912093224 a6907b17 log%s
+D reset.ads		20220912093224 762a66e1 reset%s
+D sensors.ads		20220912093224 3f8c5bfd sensors%s
+D speedo.ads		20220912093224 5866cf9e speedo%s
+D system.ads		20210520051136 2ffa5114 system%s
+D test_bscu.adb		20221023220616 8998d0fa test_bscu%b
+G a e
+G c Z b b [test_bscu standard 20 11 none]
+G r c none [test_bscu standard 20 11 none] [open_file env 26 13 none]
+G r c none [test_bscu standard 20 11 none] [open_file log 25 13 none]
+G r c none [test_bscu standard 20 11 none] [at_end env 24 12 none]
+G r c none [test_bscu standard 20 11 none] [update env 22 13 none]
+G r c none [test_bscu standard 20 11 none] [update log 23 13 none]
+G r c none [test_bscu standard 20 11 none] [control_unit bscu 8 14 none]
+G r c none [test_bscu standard 20 11 none] [read_sensor_majority sensors 42 13 none]
+G r c none [test_bscu standard 20 11 none] [enabled brakes 26 13 none]
+G r c none [test_bscu standard 20 11 none] [crash log 21 13 none]
+G r c none [test_bscu standard 20 11 none] [close_file env 28 13 none]
+G r c none [test_bscu standard 20 11 none] [close_file log 27 13 none]
+X 2 brakes.ads
+18K9*Brakes 43e11 10|18w31 29r66
+26V13*Enabled{boolean} 10|29s73
+X 3 bscu.ads
+3K9*bscu 15e9 10|18w16 28r7
+8U14*Control_Unit 10|28s12
+X 4 env.ads
+18K9*Env 30e8 10|18w6 22r4 25r17 26r7 35r4
+22U13*Update 10|26s11
+24V12*At_End{boolean} 10|25s21
+26U13*Open_File 10|22s8
+28U13*Close_File 10|35s8
+X 5 log.ads
+19K9*Log 29e8 10|18w11 23r4 27r7 30r10 33r7 36r4
+21U13*Crash 10|30s14
+23U13*Update 10|27s11 33s11
+25U13*Open_File 10|23s8
+27U13*Close_File 10|36s8
+X 7 sensors.ads
+19K9*Sensors 47e12 10|18w22 19r10 29r11 29r42
+23E9*Sensor_Type 23e46 10|19r18
+23n25*Enable{23E9} 10|29r50
+42V13*Read_Sensor_Majority{23E9} 10|29s19
+X 10 test_bscu.adb
+20U11*Test_BSCU 20b11 37l5 37t14
+

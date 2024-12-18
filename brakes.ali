@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U brakes%b		brakes.adb		fb020dc3 OO PK
+
+U brakes%s		brakes.ads		674a43fd EB EE NE OO PK
+
+D brakes.ads		20221023221118 674a43fd brakes%s
+D brakes.adb		20221023012050 9c484e3e brakes%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [enabled brakes 26 13 none]
+G c Z s b [enable brakes 32 14 none]
+G c Z s b [disable brakes 38 14 none]
+X 1 brakes.ads
+18K9*Brakes 43l5 43e11 2|2b14 28l5 28t11
+23b4*State{boolean} 28r26 29r36 34r27 35r18 35r40 40r27 41r18 41r41 2|7r14
+. 14m7 20m7 24m4
+26V13*Enabled{boolean} 29r18 2|5b14 8l8 8t15
+32U14*Enable 2|11b14 15l8 15t14
+38U14*Disable 2|17b14 21l8 21t15
+

@@ -1,0 +1,28 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U speedo%b		speedo.adb		1098e50b NE OO PK IL
+
+U speedo%s		speedo.ads		5866cf9e EB NE OO PK
+
+D speedo.ads		20220912093224 5866cf9e speedo%s
+D speedo.adb		20221022143230 48fe2a95 speedo%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [write_speed speedo 25 14 none]
+G c Z s b [read_speed speedo 31 13 none]
+X 1 speedo.ads
+16K9*Speedo 36l5 36e11 2|2b14 15l5 15t11
+21I12*Speed_Type{integer} 22r11 25r32 31r31 2|6r32 11r31
+22i4*State{21I12} 27r28 28r18 33r26 34r39 2|8m7 13r14
+25U14*Write_Speed 25>26 2|6b14 9l8 9t19
+25i26 S{21I12} 28r28 2|6b26 8r16
+31V13*Read_Speed{21I12} 34r18 2|11b13 14l8 14t18
+

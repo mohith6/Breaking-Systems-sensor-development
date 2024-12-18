@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__test_bscu.o
+[PROJECT FILES]
+C:\Users\alexa\Desktop\ill_go_rythmn\ill_go_rythmn.gpr
+20221022140832 4a086063615443dabf4c1abdd31973b1
+[BOUND OBJECT FILES]
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\alarm.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\brakes.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\reset.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\sensors.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\speedo.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\bscu.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\env.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\log.o
+C:\Users\alexa\Desktop\ill_go_rythmn\obj\test_bscu.o
+[GENERATED SOURCE FILES]
+b__test_bscu.ads
+b__test_bscu.adb
+b__test_bscu.ali
+[RESULTING OPTIONS]
+-LC:\Users\alexa\Desktop\ill_go_rythmn\obj\
+-LC:\Users\alexa\Desktop\ill_go_rythmn\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
